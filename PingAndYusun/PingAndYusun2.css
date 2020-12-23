@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+}
+.grid-container {
+  display: grid;
+  width: 100%;
+  height: 770px;
+  grid-template-columns: 0.5fr 3fr 3fr 2fr;
+}
+.item1 {
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+}
+.box {
+  border-top: solid black 10px;
+  border-right: solid black 10px;
+  border-bottom: solid black 10px;
+  border-radius: 5px;
+  width: 40px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.logo {
+  width: 25px;
+  margin-top: 13px;
+}
+.item2 {
+  background-color: white;
+}
+.Class-name {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.Class-name a {
+  font-size: 40px;
+}
+.GPA {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.GPA a {
+  font-size: 30px;
+}
+.battle {
+  display: flex;
+  justify-content: center;
+}
+.battle-top {
+  margin-top: 70px;
+  border: solid black 10px;
+  border-radius: 50px;
+  width: 200px;
+  height: 20px;
+}
+.battle-bottom {
+  margin-bottom: 20px;
+  border: solid black 10px;
+  border-radius: 50px;
+  width: 300px;
+  height: 500px;
+}
+.battle-bottom-color {
+  position: absolute;
+  z-index: 2;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
+  border-radius: 50px;
+  background-color: #73e0ce;
+  width: 303px;
+  height: 452px;
+}
+.battle-bottom-color .logo{
+    width: 200px;
+    height: 350px;
+}
+.battle-bottom-color .text{
+    position: absolute;
+    z-index: 2;
+    margin-top: 170px;
+    font-size: 30px;
+}
+
+.battle-text{
+    position: absolute;
+    z-index: 2;
+    align-self: flex-end;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.item3 {
+  background-color: white;
+}
+.Lesson{
+    display: flex;
+    margin-top: 280px;
+}
+.list{
+    width: 40px;
+    height: 20px;
+    background-color:  #F58500;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.list-red{
+    width: 40px;
+    height: 20px;
+    background-color:#FF6F6F;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+.list a{
+    position: absolute;
+    z-index: 1;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+.list-red a{
+    position: absolute;
+    z-index: 1;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+.Lesson b{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.status{
+    width: 40px;
+    height: 20px;
+    background-color: #73e0ce;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.status-Red{
+    width: 40px;
+    height: 20px;
+    background-color: #FF6F6F;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Lesson2 .status{
+    width: 40px;
+    height: 20px;
+    background-color: #73e0ce;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.comment{
+    margin-left: 60px;
+}
+.Lesson2{
+    display: flex;
+}
+.Lesson2 b{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.item4 {
+    display: flex;
+    justify-content: flex-end;
+  background-color: white;
+}
+.navbar{
+    height: 12%;
+}
+.navbar .logo{
+    width: 90px;
+}
+.status-List{
+    display: flex;
+    margin-top: 250px;
+}
+.status-List2{
+    display: flex;
+    margin-top: 20px;
+}
+.List1{
+    width: 100%;
+    justify-content: flex-start;
+    width: 40px;
+    height: 20px;
+    background-color: #F58500;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.List2{
+    width: 100%;
+    justify-content: flex-start;
+    width: 40px;
+    height: 20px;
+    background-color: #FFDC1D;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.List3{
+    width: 100%;
+    justify-content: flex-start;
+    width: 40px;
+    height: 20px;
+    background-color: #FF6F6F;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.List4{
+    width: 100%;
+    justify-content: flex-start;
+    width: 40px;
+    height: 20px;
+    background-color:#73e0ce;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.List5{
+    width: 100%;
+    justify-content: flex-start;
+    width: 40px;
+    height: 20px;
+    background-color:red;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.status-List a{
+    font-size: 20px;
+}
+.status-List2 a{
+    font-size: 20px;
+}
